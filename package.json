@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://spoooo8.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +10,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
+    "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.1"

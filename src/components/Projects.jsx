@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import Navbar from './NavBar';
+import Footer from '../components/Footer';
 
 export default function Projects() {
   const projects = [
@@ -28,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <>
+      <div className="min-h-screen flex flex-col">
       <Navbar />
       <section id="projects" className="py-16">
         <div className="max-w-6xl mx-auto px-4">
@@ -39,6 +40,7 @@ export default function Projects() {
           </div>
         </div>
       </section>
-    </>
+      <Footer />
+    </div>
   );
 }

@@ -13,9 +13,9 @@ function Navbar() {
         {/* Navigation */}
         <div className="space-x-6 text-sm font-medium text-gray-700">
           <Link to="/" className="hover:text-black transition-colors duration-150">Home</Link>
-          <Link to="/about" className="hover:text-black transition-colors duration-150">About</Link>
           <Link to="/projects" className="hover:text-black transition-colors duration-150">Projects</Link>
-          <Link to="/contact" className="hover:text-black transition-colors duration-150">Contact</Link>
+           <Link to="/certificates" className="hover:text-black transition-colors duration-150">Certifications </Link>
+          <Link to="/resume" className="hover:text-black transition-colors duration-150">Resume</Link>
         </div>
       </div>
     </nav>
