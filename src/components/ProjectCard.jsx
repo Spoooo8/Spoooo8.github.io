@@ -20,9 +20,11 @@ function ProjectCard({ title, description, link, techStack = [] }) {
         ))}
       </ul>
 
-      <a href={link} className="text-gray-900 hover:underline font-medium">
-        View Project
-      </a>
+      {link !== '#' && (
+        <a href={link} className="text-gray-900 hover:underline font-medium" target="_blank" rel="noopener noreferrer">
+          View Project
+        </a>
+      )}
     </div>
   );
 }

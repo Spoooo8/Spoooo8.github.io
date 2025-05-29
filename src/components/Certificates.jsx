@@ -28,7 +28,7 @@ function Certificates() {
       image: nlp,
     },
     {
-      title: 'Natural Language Processing',
+      title: 'Master Microservice with SpringBoot, Docker, Kubernetes',
       image: microservce,
     },
   ];
