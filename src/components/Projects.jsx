@@ -20,11 +20,18 @@ export default function Projects() {
       link: '#',
     },
     {
-      title: 'Unilink',
+      title: ' Unlink: Collaboration Platform',
       description:
         '• An integrated platform for project collaboration that offers a single space for students to create, host, and manage projects, while exploring and joining opportunities aligned with their skills and interests, simplifying access andenhancing engagement',
-      techStack: ['React.js', 'SpringBoot', 'Postgres', 'Tomcat'],
-      link: 'https://github.com/Spoooo8/unilink',
+      techStack: ['React', 'SpringBoot', 'Postgres', 'Docker'],
+      link: 'https://github.com/Spoooo8/unilink-be',
+    },
+        {
+      title: ' SimpleIDP: Custom Auth System',
+      description:
+        '• Built a secure identity provider with Spring Boot, Spring Security, and React, implementing OAuth2 grant flows (Authorization Code, Password, Client Credentials, Refresh Token) and OpenID Connect for JWT authentication. Secured APIs with role-based authorization. Developed a dynamic React frontend with Tailwind CSS for seamless user login and role-based route access, achieving 100% API test coverage with Postman.',
+      techStack: ['Spring Boot, Spring Security (Spring Authorization Server), React', 'Docker'],
+      link: 'https://simpleidp.netlify.app/',
     },
     {
       title: 'Malaria Diagnosis',
