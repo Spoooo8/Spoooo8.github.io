@@ -11,6 +11,7 @@ export default function Projects() {
         '• Microservice Architecture with Spring Boot: Contributed to the development and maintenance of microservices ensuring modularity and efficiency. • REST APIs: Designed and Developed efficient RESTful endpoints for seamless service communication.  •PostgreSQL: Managed database operations on a PostgreSQL instance hosted on Amazon RDS.',
       techStack: ['Jr Software Developer Intern - VRHR'],
       link: '#',
+      repo: '#',
     },
     {
       title: 'Limendo India',
@@ -18,6 +19,7 @@ export default function Projects() {
         '• Automate Extraction: Developed a system to automatically extract privacy policy texts from websites. • Scoring Model: Trained machine learning models to score privacy policies based on clarity, comprehensiveness,and compliance. • Result Presentation:: Creating an intuitive interface to present privacy scores and insights, aiding users inunderstanding and comparing website privacy practices.',
       techStack: [' Machine Learning Intern- Privacy Policy Score'],
       link: '#',
+      repo: '#',
     },
     {
       title: ' Unlink: Collaboration Platform',
