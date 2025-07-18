@@ -5,32 +5,83 @@ import Footer from '../components/Footer';
 import gswcp from '../../public/images/nptel_gswcp.png';
 import jocp from '../../public/images/nptel_jocp.png';
 import nlp from '../../public/images/nptel_nlp.png';
+import c from '../../public/images/nptel_c.jpeg';
+import c1 from '../../public/images/nptel_c++.jpeg';
+import java from '../../public/images/nptel_java.jpeg';
+import calculus from '../../public/images/nptel_calculus.jpeg';
 import microservce from '../../public/images/udemy_microservice.jpg'
+import security from '../../public/images/udemy_spring_security.jpg'
+import react from '../../public/images/udemy_react.jpg'
 import ds from '../../public/images/nasscom_ds.png'
+import ai from '../../public/images/ai.png'
+import star from '../../public/images/star.png'
 
+import cybersecurity from '../../public/images/cybersecurity.jpg'
 function Certificates() {
   const certificates = [
+   
+    {
+      title: 'Master Microservice with SpringBoot, Docker, Kubernetes',
+      image: microservce,
+    },
+    {
+      title: 'Spring Security 6 Zero to Master along with JWT, OAUTH2',
+      image: security,
+    },
+    {
+      title: 'React - The Complete Guide 2025 (incl. Next.js, Redux)',
+      image: react,
+    },
+    {
+      title: 'Google Cybersecuriy',
+      image: cybersecurity,
+    },
+
     {
       title: 'Data Science for Beginners',
       image: ds,
     },
-    {
-      title: 'The Joy of Computing using Python',
-      image: jocp,
+      {
+      title: 'Artificial Intelligence',
+      image: ai,
     },
     {
-      title: 'Getting Started with Competitive Programming',
-      image: gswcp,
+      title: 'NPTEL Discipline Star',
+      image: star,
     },
-  
+    {
+      title: 'Programming in Java',
+      image: java,
+    },
     {
       title: 'Natural Language Processing',
       image: nlp,
     },
     {
-      title: 'Master Microservice with SpringBoot, Docker, Kubernetes',
-      image: microservce,
+      title: 'Getting Started with Competitive Programming',
+      image: gswcp,
     },
+      {
+      title: 'The Joy of Computing using Python',
+      image: jocp,
+    },
+    {
+      title: 'Programming in Modern C++',
+      image: c1,
+    },
+    {
+      title: 'Problem Solving Through Programming in C',
+      image: c,
+    },
+    {
+      title: 'Advanced Calculus For Engineers',
+      image: calculus,
+    },
+  
+
+
+
+
   ];
 
   return (
